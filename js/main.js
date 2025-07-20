@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // adding webmaster verification;
   var meta = document.createElement('meta');
   meta.name = "google-site-verification";
-  meta.content = "jrBotqp73l_mqpKB4FmN8JPpDYyF_XJg2-OTDVf8uzw";
+  meta.content = "BzH505KLXFQnucODlYv47Wazl1GQ45J9iMMefCLCHkw";
   document.head.appendChild(meta);
   
   // Lazy load images for better performance
