@@ -1,4 +1,3 @@
-
 // Enhanced user interactions and performance tracking
 document.addEventListener('DOMContentLoaded', function() {
   // Track phone button clicks for analytics
@@ -14,6 +13,12 @@ document.addEventListener('DOMContentLoaded', function() {
       }, 150);
     });
   });
+
+  // adding webmaster verification;
+  var meta = document.createElement('meta');
+  meta.name = "google-site-verification";
+  meta.content = "jrBotqp73l_mqpKB4FmN8JPpDYyF_XJg2-OTDVf8uzw";
+  document.head.appendChild(meta);
   
   // Lazy load images for better performance
   if ('IntersectionObserver' in window) {
